@@ -1,0 +1,143 @@
+/* Admin Login Page Custom Styles */
+
+/* Background and layout settings */
+.admin-login-wrapper {
+    height: 100vh;
+    background-color: #FF6347; /* Use the specified color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .ck-editor__editable[role="textbox"] {
+                /* editing area */
+                min-height: 300px;
+            }
+.login-form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-header h2 {
+    color: #333;
+}
+
+.login-text {
+    color: #555;
+}
+
+/* Form Input Styling */
+.login-input {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Icon styling inside input */
+.input-with-icon .input-group-text {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+}
+
+/* Button Styling */
+.login-btn {
+    background-color: #FF6347; /* Button uses the primary color */
+    border-color: #FF6347;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.login-btn:hover {
+    background-color: #ff4500; /* Slightly darker hover effect */
+    border-color: #ff4500;
+}
+
+/* Forgot Password Link */
+.forgot-password-link {
+    color: #FF6347;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+/* Admin Dashboard Custom Styles */
+
+/* Header */
+.admin-header {
+    background-color: #FF6347; /* Header background using primary color */
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.admin-header .logout-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.admin-header .logout-link:hover {
+    text-decoration: underline;
+}
+.text-docoration-none:hover{
+	text-decoration:none;	
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #343a40;
+    padding: 20px;
+}
+
+.sidebar-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.sidebar-link i {
+    margin-right: 10px;
+}
+
+.sidebar-link:hover {
+    background-color: #495057;
+}
+
+/* Content Section */
+.content-section {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.stat-box {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.admin-footer {
+    background-color: #343A40;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
